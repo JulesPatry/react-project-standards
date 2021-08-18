@@ -2,7 +2,7 @@
 
 In this read-me will contain the standards for writing react components. The goal in creating these standards is to define a writing style that a team can agree with. Once achieved it will improve the ability for an engineer to understand brand new react projects and empower them to contribue at a faster rate without surprises.
 
-1. All React components should be written as a function to leverage hooks. Class components do not support hooks.
+1. All React components should be written as a function to leverage hooks. Class components do not support hooks, so we avoid them.
 2. Higher Order Components, also known as HoCs should be replaced with hooks.
 3. All React Components should be written with typescript.
 
